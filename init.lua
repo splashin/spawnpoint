@@ -159,7 +159,7 @@ function spawnpoint.bring(player)
 
 	if player and spawnpoint.pos then
 		local pos = spawnpoint.pos
-		player:setpos({x=pos.x, y=pos.y+0.5, z=pos.z})
+		player:set_pos({x=pos.x, y=pos.y+0.5, z=pos.z})
 	end
 end
 
